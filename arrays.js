@@ -10,7 +10,7 @@ return newarray
 function destructivelyAddElementToBeginningOfArray()
 {
  var array = [1]
- array.unshift('foo')
+ array.unshift('foo', array)
  return array
  }
 
