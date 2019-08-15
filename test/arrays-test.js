@@ -1,4 +1,5 @@
 /*global describe, it */
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 const expect = require('chai').expect
 const fs = require('fs')
@@ -12,7 +13,7 @@ describe('arrays', () => {
 
   describe('chocolateBars', () => {
     it('is an array containing "snickers", "hundred grand", "kitkat", and "skittles"', () => {
-      expect(chocolateBars).to.eql['snickers', 'hundred grand', 'kitkat', 'skittles']
+      expect(chocolateBars).to.eql['snickers','hundred grand', 'kitkat', 'skittles']
     })
   })
 
